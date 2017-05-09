@@ -4,7 +4,7 @@
 set -e  # Exit on error
 
 
-yum -y install epel-release
-yum -y group install "Development Tools"
-yum -y install git openssl-devel python-devel python-pip python-setuptools \
-    libffi-devel
+yum -y install golang gmp-devel git
+git clone https://github.com/ethereum/go-ethereum
+cd go-ethereum
+make geth
