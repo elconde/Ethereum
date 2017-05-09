@@ -4,6 +4,8 @@
 set -e  # Exit on error
 
 
-cd cpp-ethereum/build
+cd cpp-ethereum
+mkdir build
+cd build
 /usr/local/bin/cmake ..
 make
