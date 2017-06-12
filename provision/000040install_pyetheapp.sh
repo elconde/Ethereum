@@ -4,4 +4,6 @@
 set -e  # Exit on error
 
 
-pip install pyethapp
+git clone https://github.com/ethereum/pyethapp
+cd pyethapp
+python setup.py develop

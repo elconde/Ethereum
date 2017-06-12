@@ -4,4 +4,4 @@
 set -e  # Exit on error
 
 
-pip install --upgrade pyelliptic==1.5.7
+pip install --upgrade pyelliptic==1.5.7 six
