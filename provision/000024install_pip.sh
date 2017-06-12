@@ -4,5 +4,5 @@
 set -e  # Exit on error
 
 
-wget https://bootstrap.pypa.io/get-pip.py
+wget --debug --no-verbose https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
