@@ -4,4 +4,4 @@
 set -e  # Exit on error
 
 
-pip install cffi
+pip install --upgrade cffi
