@@ -1,9 +1,7 @@
 #!/bin/bash
 #
-# Download pyetheapp
+# Install pyetheapp
 set -e  # Exit on error
 
 
-git clone https://github.com/ethereum/pyethapp
-cd pyethapp
-python setup.py develop
+pip install pyethapp
