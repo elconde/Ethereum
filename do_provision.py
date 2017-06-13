@@ -7,7 +7,6 @@ We will support two types of provision files:
 1) .sh  Shell scripts to be run as root
 2) .py  Python files to be run as root
 
-The Python and AMBA provisioners can only work after the ADS is installed.
 """
 import os
 import sys
